@@ -98,8 +98,8 @@ async def generate_image(update: Update, context: ContextTypes.DEFAULT_TYPE):
         "negative_prompt": negative,
         "params": {
             "n": 1,
-            "width": 768,
-            "height": 768,
+            "width": 640,
+            "height": 640,
             "steps": 32,
             "cfg_scale": 7,
             "sampler_name": "k_euler_a",
